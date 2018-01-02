@@ -1,8 +1,8 @@
 {
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
-  "name": "sentiment",
+  "name": "@trainorpj/sentiment",
   "description": "AFINN-based sentiment analysis for Node.js",
-  "version": "4.1.0",
+  "version": "4.1.4",
   "license": "MIT",
   "homepage": "https://github.com/thisandagain/sentiment",
   "repository": {
@@ -15,15 +15,19 @@
     "nlp",
     "sentiment analysis"
   ],
-  "main": "./lib/index.js",
+  "main": "./bundle/bundle.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "build": "rollup -c"
   },
   "devDependencies": {
-    "async": "^2.1.5",
     "Sentimental": "1.0.1",
+    "async": "^2.1.5",
     "benchmark": "^2.1.0",
     "eslint": "^4.6.1",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "tap": "^10.1.0"
   },
   "engines": {
