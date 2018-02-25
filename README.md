@@ -12,7 +12,7 @@ This runs the following:
 "npx http-serve --cors"
 ```
 
-Then open up [http://http://localhost:8080/](http://localhost:8080/), and check out the console!
+Then open up [localhost:8080](http://localhost:8080), and check out the console!
 
 The output should look like this:
 
