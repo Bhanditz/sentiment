@@ -15,7 +15,8 @@
   "browser": "bundle/bundle.umd.js",
   "scripts": {
     "test": "make test",
-    "bundle": "rollup -c --no-conflict"
+    "bundle": "rollup -c --no-conflict",
+    "serve": "npx http-serve --cors"
   },
   "devDependencies": {
     "Sentimental": "1.0.1",
